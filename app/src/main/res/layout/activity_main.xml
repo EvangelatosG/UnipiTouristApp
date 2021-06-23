@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:onClick="write"
+        android:text="Write"
+        app:layout_constraintStart_toEndOf="@+id/btnMap"
+        app:layout_constraintTop_toTopOf="@+id/btnMap" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="delete"
+        android:text="Delete"
+        app:layout_constraintStart_toStartOf="@+id/btnWrite"
+        app:layout_constraintTop_toBottomOf="@+id/btnWrite" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="224dp"
+        android:onClick="map"
+        android:text="Map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="range"
+        android:text="Range"
+        app:layout_constraintStart_toStartOf="@+id/btnMap"
+        app:layout_constraintTop_toBottomOf="@+id/btnMap" />
+
+    <Button
+        android:id="@+id/btnShowStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:onClick="showstats"
+        android:text="Show Statistics"
+        app:layout_constraintStart_toStartOf="@+id/btnRange"
+        app:layout_constraintTop_toBottomOf="@+id/btnRange" />
+
+    <Button
+        android:id="@+id/btnDelStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="delstats"
+        android:text="Delete Statistics"
+        app:layout_constraintStart_toStartOf="@+id/btnShowStat"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowStat" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="update"
+        android:text="Update Firebase"
+        app:layout_constraintStart_toStartOf="@+id/btnDelStat"
+        app:layout_constraintTop_toBottomOf="@+id/btnDelStat" />
+
+</android.support.constraint.ConstraintLayout>

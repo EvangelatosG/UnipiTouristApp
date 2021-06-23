@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188574000110",
+    "firebase_url": "https://ergasia3-b8424.firebaseio.com",
+    "project_id": "ergasia3-b8424",
+    "storage_bucket": "ergasia3-b8424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188574000110:android:51e20b3517879294",
+        "android_client_info": {
+          "package_name": "com.hfad.ergasia3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188574000110-mcdt2hf7ja01dna6j8bmorjmb7eiam7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.ergasia3",
+            "certificate_hash": "3017555677219b337d5738b871ffd7f3b633ad03"
+          }
+        },
+        {
+          "client_id": "188574000110-hrd6fc5i12kjlac5mjo1ulkdtpd6fn08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlERmEl6L9yffsx0xHRj5O5XTrkPHSO2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188574000110-hrd6fc5i12kjlac5mjo1ulkdtpd6fn08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
